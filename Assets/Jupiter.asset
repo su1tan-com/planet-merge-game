@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24db331126d0d4467b25412129405214, type: 3}
+  m_Name: Jupiter
+  m_EditorClassIdentifier: Assembly-CSharp::PlanetData
+  planetName: Jupiter
+  tier: 5
+  primaryColor: {r: 1.000, g: 0.341, b: 0.192, a: 1}
+  glowColor: {r: 1.000, g: 0.608, b: 0.502, a: 1}
+  radius: 0.73
+  mass: 2.8
+  drag: 0.5
+  angularDrag: 0.5
+  bounciness: 0.35
+  scoreOnMerge: 200
+  nextTier: {fileID: 11400000, guid: 00e60f6eea1974b08bf52b877777eb7b, type: 2}
